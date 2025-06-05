@@ -2,6 +2,7 @@ export interface Experience {
     id: string;
     userId: string;
     title: string;
+    company: string;            // Company name
     role: string;
     startDate: string;           // ISO date string, e.g. "2025-06-03"
     endDate: string | null;      // ISO date string or null

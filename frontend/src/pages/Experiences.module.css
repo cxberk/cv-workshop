@@ -1,0 +1,24 @@
+.experiences {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.loading,
+.error,
+.noExperiences {
+  text-align: center;
+  margin: 2rem 0;
+  color: #4b5563;
+}
+
+.error {
+  color: #dc2626;
+}
